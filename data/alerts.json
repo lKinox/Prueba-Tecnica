@@ -1,0 +1,61 @@
+[
+  {
+    "id": "alert-001",
+    "title": "Database Connection Lost",
+    "description": "Unable to connect to main database",
+    "severity": "critical",
+    "status": "active",
+    "source_system": "database-monitor",
+    "created_at": "2024-01-15T10:30:00Z",
+    "updated_at": "2024-01-15T10:30:00Z",
+    "assigned_to": "usuario@email.com",
+    "tags": [
+      "database",
+      "connection",
+      "critical"
+    ]
+  },
+  {
+    "id": "alert-002",
+    "title": "High Memory Usage",
+    "description": "Memory usage above 85%",
+    "severity": "high",
+    "status": "active",
+    "source_system": "application-monitor",
+    "created_at": "2024-01-16T12:00:00Z",
+    "updated_at": "2024-01-16T12:00:00Z",
+    "assigned_to": null,
+    "tags": [
+      "memory",
+      "usage"
+    ]
+  },
+  {
+    "id": "alert-003",
+    "title": "Disk Space Warning",
+    "description": "Disk space below 10%",
+    "severity": "medium",
+    "status": "active",
+    "source_system": "server-monitor",
+    "created_at": "2024-01-17T08:15:00Z",
+    "updated_at": "2024-01-17T08:15:00Z",
+    "assigned_to": null,
+    "tags": [
+      "disk",
+      "storage"
+    ]
+  },
+  {
+    "id": "alert-004",
+    "title": "High CPU Usage",
+    "description": "CPU usage above 90%",
+    "severity": "high",
+    "status": "active",
+    "source_system": "monitoring-app",
+    "created_at": "2025-07-08T16:14:58Z",
+    "updated_at": "2025-07-08T16:14:58Z",
+    "assigned_to": null,
+    "tags": [],
+    "external_id": "ext-123"
+  }
+]
