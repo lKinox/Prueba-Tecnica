@@ -286,7 +286,6 @@ def import_alerts_route():
     imported = import_alerts(batch)
     return jsonify({"imported": imported}), 200
 
-# Swagger definitions para Alert y AlertImport (para docs)
 from flasgger.utils import swag_from
 from .models import SEVERITIES, STATUSES
 

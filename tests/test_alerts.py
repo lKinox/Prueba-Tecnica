@@ -12,11 +12,9 @@ def client():
 
 @pytest.fixture(autouse=True)
 def temp_alerts_file(monkeypatch):
-    # Usar archivo temporal para no dañar los datos reales
     fd, path = tempfile.mkstemp()
     os.close(fd)
     monkeypatch.setattr("app.storage.ALERTS_FILE", path)
-    # Datos de ejemplo
     data = [
         {
             "id": "alert-010",
